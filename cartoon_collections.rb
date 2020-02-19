@@ -5,9 +5,11 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(array)
-  array
-  
-end
+  # Your code here	  array.map do |element|
+    element[0] = element[0].upcase
+    element << "!"
+  end
+end	end
 
 def long_planeteer_calls(array)
   value = array.find{|i| i.length > 4}
