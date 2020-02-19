@@ -1,5 +1,3 @@
-
-
 def roll_call_dwarves(arr)
   arr.each_with_index do |index,dwarf|
      puts "#{dwarf+1}.#{index}"
@@ -13,8 +11,8 @@ end
 
 def long_planeteer_calls(array)
   array.map do |str| 
-  str.capitalize + ","
-  "#{str.capitalize}"
+  str[0] = str[0].upcase
+  str << "!"
   
 end
 
