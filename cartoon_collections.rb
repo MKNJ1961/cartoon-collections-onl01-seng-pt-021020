@@ -1,7 +1,7 @@
 
 
-def roll_call_dwarves(array)
-  array.each_with_index do |index,dwarf|
+def roll_call_dwarves(arr)
+  arr.each_with_index do |index,dwarf|
      puts "#{dwarf+1}.#{index}"
   end  
 end
