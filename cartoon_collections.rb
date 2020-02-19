@@ -9,7 +9,7 @@ def summon_captain_planet(array)
     element[0] = element[0].upcase
     element << "!"
   end
-end	end
+end	
 
 def long_planeteer_calls(array)
   value = array.find{|i| i.length > 4}
